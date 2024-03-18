@@ -1,20 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HTML 页面</title>
-    <style>
-        body {
-            background-image: url('./background.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Videos with Titles</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./background.png'); /* 背景图片的路径 */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .video-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white; /* 标题文字颜色 */
+  }
+  .video-title-1 {
+    color: red;
+  }
+  .video-title-2 {
+    color: blue;
+  }
+  /* 添加更多标题颜色设置 */
+</style>
 </head>
 <body>
-    <h1>Welcome to My Page</h1>
-    <video controls width="600" height="400">
-        <source src="./video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-1">智能体识别仿真</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-2">多智能体单任务仿真</h2>
+</div>
+
+<!-- 添加更多视频和标题 -->
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-3">多智能体多任务仿真</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-4">仿真视频4</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video5.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-5">仿真视频5</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video6.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-6">仿真视频6</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video7.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-7">仿真视频7</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video8.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-8">仿真视频8</h2>
+</div>
+
+<div class="video-container">
+  <video controls width="400">
+    <source src="./video9.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 class="video-title video-title-8">仿真视频9</h2>
+</div>
+
 </body>
 </html>
